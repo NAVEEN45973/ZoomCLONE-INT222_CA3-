@@ -3,7 +3,7 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <title>Zoom_Clone(CA3</title>
    <script>
       const ROOM_ID = "<%= roomId %>"
    </script>
@@ -20,12 +20,16 @@
          display: flex;
          justify-content: center;
          flex-wrap: wrap;
+         border: 3px solid black;
       }
       video{
-         height: 300px;
-         width: 400px;
+         height: 250px;
+         width: 250px;
          object-fit: cover;
          padding: 8px;
+      }
+      body{
+         border: 5px solid black;
       }
    </style>
 </head>
@@ -33,6 +37,7 @@
    <div class="main">
       <div class="main__left">
          <div class="main__videos">
+            <h1></h1>
             <div id="video-grid">
       
             </div>
